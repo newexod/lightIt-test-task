@@ -1,3 +1,21 @@
+#ВНИМАНИЕ!!
+
+После запуска проекта командой ng serve у меня постоянно всплывала ошибка: 
+"ERROR in Error encountered resolving symbol values statically. Function calls 
+are not supported. Consider replacing the function or lambda with a reference to 
+an exported function (position 7:17 in the original .ts file), resolving symbol 
+fakeBackendProvider in D:/work/lightIt/src/app/_helpers/fake-backend.ts, resolving 
+symbol fakeBackendProvider in D:/work/lightIt/src/app/_helpers/index.ts, resolving 
+symbol AppModule in D:/work/lightIt/src/app/app.module.ts, resolving symbol AppModule 
+in D:/work/lightIt/src/app/app.module.ts"
+
+#ЛЕЧЕНИЕ:
+<ul>
+	<li>Открыть проект в текстовом редакторе либо IDE </li>
+	<li>Открыть файл, к примеру index.html, либо какой-нибудь другой файл в папке src</li>
+	<li>Комбинацией клавиш Ctrl + S просто сохранить и всё будет работать</li>
+</ul>
+
 # LightIt
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
