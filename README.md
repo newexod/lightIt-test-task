@@ -1,4 +1,4 @@
-#ВНИМАНИЕ!!
+# ВНИМАНИЕ!!
 
 После запуска проекта командой ng serve у меня постоянно всплывала ошибка: 
 "ERROR in Error encountered resolving symbol values statically. Function calls 
@@ -9,7 +9,7 @@ symbol fakeBackendProvider in D:/work/lightIt/src/app/_helpers/index.ts, resolvi
 symbol AppModule in D:/work/lightIt/src/app/app.module.ts, resolving symbol AppModule 
 in D:/work/lightIt/src/app/app.module.ts"
 
-#ЛЕЧЕНИЕ:
+# ЛЕЧЕНИЕ:
 <ul>
 	<li>Открыть проект в текстовом редакторе либо IDE </li>
 	<li>Открыть файл, к примеру index.html, либо какой-нибудь другой файл в папке src</li>
